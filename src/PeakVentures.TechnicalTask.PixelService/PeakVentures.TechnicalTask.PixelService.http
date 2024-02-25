@@ -1,0 +1,6 @@
+@PeakVentures.TechnicalTask.PixelService_HostAddress = http://localhost:5100
+
+GET {{PeakVentures.TechnicalTask.PixelService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

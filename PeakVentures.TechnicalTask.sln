@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{067ABF44-8254-41D2-B153-4461D8F43B2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{73075C73-8A1D-4433-85A6-EFA3BA8DDDA3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeakVentures.TechnicalTask.PixelService", "src\PeakVentures.TechnicalTask.PixelService\PeakVentures.TechnicalTask.PixelService.csproj", "{C824A788-7A15-4495-82F5-4A534576F7C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeakVentures.TechnicalTask.Contracts", "src\PeakVentures.TechnicalTask.Contracts\PeakVentures.TechnicalTask.Contracts.csproj", "{FB6FA38E-E432-46E6-919C-A601797845BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeakVenture.TechnicalTask.StorageService", "src\PeakVenture.TechnicalTask.StorageService\PeakVenture.TechnicalTask.StorageService.csproj", "{D00235D7-DD14-4CB5-AB70-C88CF570EDA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeakVentures.TechnicalTask.PixelService.Tests", "test\PeakVentures.TechnicalTask.PixelService.Tests\PeakVentures.TechnicalTask.PixelService.Tests.csproj", "{0487C0AC-2479-4A4E-ABEA-DF5C4778C235}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{44ABD0BA-1F73-4E44-84C7-2993668609E2}"
+	ProjectSection(SolutionItems) = preProject
+		HR-Technical Task - Backend Engineer-030124-164624.pdf = HR-Technical Task - Backend Engineer-030124-164624.pdf
+		README = README
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C824A788-7A15-4495-82F5-4A534576F7C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C824A788-7A15-4495-82F5-4A534576F7C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C824A788-7A15-4495-82F5-4A534576F7C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C824A788-7A15-4495-82F5-4A534576F7C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6FA38E-E432-46E6-919C-A601797845BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6FA38E-E432-46E6-919C-A601797845BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6FA38E-E432-46E6-919C-A601797845BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6FA38E-E432-46E6-919C-A601797845BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D00235D7-DD14-4CB5-AB70-C88CF570EDA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D00235D7-DD14-4CB5-AB70-C88CF570EDA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D00235D7-DD14-4CB5-AB70-C88CF570EDA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D00235D7-DD14-4CB5-AB70-C88CF570EDA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0487C0AC-2479-4A4E-ABEA-DF5C4778C235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0487C0AC-2479-4A4E-ABEA-DF5C4778C235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0487C0AC-2479-4A4E-ABEA-DF5C4778C235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0487C0AC-2479-4A4E-ABEA-DF5C4778C235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C824A788-7A15-4495-82F5-4A534576F7C6} = {067ABF44-8254-41D2-B153-4461D8F43B2B}
+		{FB6FA38E-E432-46E6-919C-A601797845BA} = {067ABF44-8254-41D2-B153-4461D8F43B2B}
+		{D00235D7-DD14-4CB5-AB70-C88CF570EDA4} = {067ABF44-8254-41D2-B153-4461D8F43B2B}
+		{0487C0AC-2479-4A4E-ABEA-DF5C4778C235} = {73075C73-8A1D-4433-85A6-EFA3BA8DDDA3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {452F07C9-196B-413C-B74F-D853722F523B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@PeakVenture.TechnicalTask.StorageService_HostAddress = http://localhost:5168
+
+GET {{PeakVenture.TechnicalTask.StorageService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
